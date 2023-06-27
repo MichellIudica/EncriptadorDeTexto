@@ -1,0 +1,149 @@
+*{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 20px;
+    margin-left: 20px;
+    width: 5%;
+}
+
+body{
+    background:#F3F5FC;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.textoArea{
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder { color: #0a3871;}
+    .textoArea{
+        outline: none;
+    }
+
+.info{
+    color: #495057;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.info:before{
+    content:"★"
+
+}
+
+.seccion2{
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 700px;
+    right: -120px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+.seccion2:focus{
+    outline: none;
+}
+
+.muñeco{
+    position: adsolute;
+    left: 30px;
+    top: 180px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.contenedordesencriptado{
+    position: absolute;
+    box-sizing: border-box;
+    top: 370px;
+    left: 40px;
+}
+
+.contenedordesencriptado h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #343a40
+}
+
+.contenedordesencriptado p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    padding-top: 20px;
+}
+ 
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-Encriptar{
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    transition: 1s all;
+    cursor:pointer;
+}
+.btn-Encriptar:hover{
+    transform: scale(1.2);
+}
+
+.btn-desencriptar{
+    background-color: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    margin-left: 108px;
+    height: 67px;
+    width: 328px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.btn-desencriptar:hover{
+    transform: scale(1.2);
+}
+
+.copiar{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 10px;
+    margin-top: 400px;
+    position: absolute;
+    width: 336px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.copiar:hover{
+    transform: scale(1.2);
+}
+
+
+.ocultar{
+    display: none;
+}
